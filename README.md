@@ -1,7 +1,5 @@
 # webp cbz creator
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-
 A **simplified GUI tool** written in Python (Tkinter/Pillow) for **batch converting** images, folders, and existing `.cbz` archives into the highly efficient **WebP** format.
 
 ---
@@ -36,8 +34,3 @@ A screenshot of the application's user interface:
     ```
 
 Simply paste your file/folder paths into the box, configure your WebP settings, and click "Process Paths".
-
----
-
-You may be interested in watching this video on [WebP Conversion with Intelligence](https://www.youtube.com/watch?v=gC0vWgghWr4) as it discusses intelligent WebP conversion which is central to your project's function.
-http://googleusercontent.com/youtube_content/0
