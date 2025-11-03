@@ -1,32 +1,43 @@
-# 🖼️ Advanced WebP + CBZ Converter (Simplified GUI)
+# webp cbz creator
 
-A Python script with a graphical user interface (GUI) to batch convert images, folders, and existing CBZ archives into the efficient **WebP** format.
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
----
-
-## ✨ Features
-
-* **Single Input:** Paste file, folder, or CBZ paths into one box for batch processing.
-* **WebP Control:** Configure Quality (0-100), Lossless mode, and Conversion Effort (1-6).
-* **Optional Resizing:** Downscale images using the Lanczos algorithm to limit the longest side (e.g., max 1920px).
-* **CBZ Handling:**
-    * Converts image folders into new `.cbz` archives containing WebP images.
-    * Converts the contents of existing `.cbz` archives and creates a new `_webp.cbz`.
+A **simplified GUI tool** written in Python (Tkinter/Pillow) for **batch converting** images, folders, and existing `.cbz` archives into the highly efficient **WebP** format.
 
 ---
 
-## 🛠️ Requirements
+## 📸 Preview
 
-* Python 3
-* `Pillow` (PIL) library
-* `tkinter` (Standard Python library)
+A screenshot of the application's user interface:
 
-## 🚀 How to Use
+![App Screenshot](https://github.com/Xzpy909/webp-cbz-creator/blob/main/preview.png)
 
-1.  **Run the script:**
+---
+
+## ✨ Key Features
+
+* **Batch Conversion:** Converts multiple files, folders, or CBZ paths in one go.
+* **Quality Control:** Adjust **Lossless** mode, **Quality** (0-100), and **Effort** level.
+* **Resizing:** Optional **Lanczos downscaling** to cap the image's longest side (e.g., 1920px).
+* **CBZ Handling:** Creates new CBZ archives from converted images or re-encodes existing ones.
+
+---
+
+## 🚀 Setup & Run
+
+1.  **Install Pillow:**
     ```bash
-    python webp cbz creator.py
+    pip install Pillow
     ```
-2.  **Configure Settings:** Adjust the Quality, Lossless, Effort, and Resize options.
-3.  **Paste Paths:** Paste one or more full paths (files, folders, or `.cbz` archives) into the input box, one per line.
-4.  **Click "Process Paths"** to start the batch conversion. A separate progress window will appear.
+
+2.  **Run the script:**
+    ```bash
+    python "webp cbz creator.py"
+    ```
+
+Simply paste your file/folder paths into the box, configure your WebP settings, and click "Process Paths".
+
+---
+
+You may be interested in watching this video on [WebP Conversion with Intelligence](https://www.youtube.com/watch?v=gC0vWgghWr4) as it discusses intelligent WebP conversion which is central to your project's function.
+http://googleusercontent.com/youtube_content/0
